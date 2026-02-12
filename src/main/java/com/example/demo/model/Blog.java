@@ -12,7 +12,7 @@ public class Blog {
     private String title;
     private String summary;
     private String category;
-    private String status;  // ✅ ADD THIS
+    private String status;  
 
     private String publishedAt;
     private String createdAt;
@@ -56,7 +56,7 @@ public class Blog {
         this.category = category;
     }
 
-    public String getStatus() {   // ✅ Now valid
+    public String getStatus() {   
         return status;
     }
 
